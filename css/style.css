@@ -61,12 +61,6 @@ font-weight: 400;
     margin-top: -0.5rem !important;
   }
 
-.card-img-top {
-width: 100%;
-height: 30vh;
-object-fit: contain;
-}
-
 .card-link-hover {
     text-decoration: none; /* Remove underline from link */
     color: inherit; /* Inherit the color from parent to child elements */
