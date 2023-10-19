@@ -1,0 +1,58 @@
+
+#animated-word {
+    border-right: 2px solid #000; /* Cursor effect */
+    padding-right: 2px; /* Cursor effect */
+    color: #6b62e8;
+  }
+  
+  h1 {
+      font-family: 'Jost';
+      font-weight: 500;
+      font-size: 44pt;
+  }
+
+  p {
+      font-family: 'Jost';
+      font-size: 14pt;
+  }
+
+  .background {
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+  }
+
+  .padding-right {
+      padding-right: 150px;
+      margin-top: 30px;
+  }
+
+  .my-auto {
+      margin-top: auto; /* Pushes the text to the top of the flex container */
+      margin-bottom: auto; /* Pushes the text to the bottom of the flex container */
+  }
+
+  .global-jost {
+      font-family: 'Jost';
+  }
+
+  .pic-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-custom-primary {
+background-color: #f6b94c;
+border-color: #f6b94c;
+color: #111; /* Text color for the button */
+font-size: 17px;
+font-weight: 400;
+}     
+
+/* Custom CSS for the outline secondary button */
+.btn-custom-outline-secondary {
+border-color: #f6b94c;
+color: #111; /* Text and border color for the button */;
+border-radius: 30px;
+font-size: 17px;
+font-weight: 400;
+}
