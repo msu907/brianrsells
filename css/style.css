@@ -93,9 +93,7 @@ font-weight: 400;
     .word-container {
         height: 145px !important; /* Adjust the height as needed */
     }
-}
 
-@media (max-width: 767px) {
     .mobile-line-break {
         white-space: nowrap !important;
     }
