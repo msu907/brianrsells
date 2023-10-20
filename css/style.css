@@ -98,7 +98,7 @@ font-weight: 400;
         white-space: nowrap !important;
     }
 
-    .mobile-line-break span {
+    .mobile-line-break #animated-word {
         display: block !important;
     }
 }
