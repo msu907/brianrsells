@@ -91,18 +91,16 @@ font-weight: 400;
 /* Define a fixed height for the .word-container on small screens */
 @media (max-width: 767px) {
     .word-container {
-        height: 210px !important; /* Adjust the height as needed */
+        height: 145px !important; /* Adjust the height as needed */
     }
 }
 
-/* Define styles for mobile screens */
 @media (max-width: 767px) {
-    /* Add CSS to control line breaks */
-    .col-xl-7.col-md-12.my-auto h1 {
-        white-space: nowrap; /* Prevent line break */
+    .mobile-line-break {
+        white-space: nowrap;
     }
 
-    .col-xl-7.col-md-12.my-auto #animated-word {
-        display: block; /* Make the animated word a block-level element */
+    .mobile-line-break span {
+        display: block;
     }
 }
