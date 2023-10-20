@@ -91,7 +91,6 @@ font-weight: 400;
 /* Define a fixed height for the .word-container on small screens */
 @media (max-width: 767px) {
     .word-container {
-        height: 415px; /* Adjust the height as needed */
-        overflow: hidden; /* Hide content that overflows the container */
+        height: 215px; /* Adjust the height as needed */
     }
 }
