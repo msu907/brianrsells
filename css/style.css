@@ -94,3 +94,20 @@ font-weight: 400;
         height: 155px !important; /* Adjust the height as needed */
     }
 }
+
+/* Add this CSS to your stylesheet */
+.equal-height-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-cards .card {
+    flex: 1; /* Distribute available space equally among cards */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure each card takes the full height of its container */
+}
+
+.card-body {
+    flex-grow: 1; /* Allow card body to grow within the card */
+}
