@@ -97,10 +97,10 @@ font-weight: 400;
 
 @media (max-width: 767px) {
     .mobile-line-break {
-        white-space: nowrap;
+        white-space: nowrap !important;
     }
 
     .mobile-line-break span {
-        display: block;
+        display: block !important;
     }
 }
