@@ -89,8 +89,8 @@ font-weight: 400;
 }
 
 /* Define a fixed height for the .word-container on small screens */
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .word-container {
-        height: 215px; /* Adjust the height as needed */
+        height: 500px; /* Adjust the height as needed */
     }
 }
